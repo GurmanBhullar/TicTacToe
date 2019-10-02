@@ -115,9 +115,15 @@ playgame(CellId,buselected)
 
             if(winner!=-1)
             {
-                Toast.makeText(this,"Player $winner wins", Toast.LENGTH_LONG).show()
+                Toast.makeText(this,"Player 1 wins", Toast.LENGTH_LONG).show()
             }
-
+elseif
+        { Toast.makeText(this,"Player 2 wins", Toast.LENGTH_LONG).show()
+        }
+        else
+        {
+            Toast.makeText(this,"Draw Match", Toast.LENGTH_LONG).show()
+        }
 
         }
     }
